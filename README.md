@@ -87,8 +87,8 @@ This project was supported with the help of GitHub Copilot during the developmen
 ### Author
 
 - Name - RODRIGUEZ Justine
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jucroizer)
-- GitHub - [@yourusername](https://github.com/jucroizer)
+- Frontend Mentor - [@jucroizer](https://www.frontendmentor.io/profile/jucroizer)
+- GitHub - [@jucroizer](https://github.com/jucroizer)
 
 ## Acknowledgments
 
