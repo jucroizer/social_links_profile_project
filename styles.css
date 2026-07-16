@@ -66,3 +66,29 @@ h1{
     font-weight: 300;
     text-align: center;
 }
+
+.social-links li{
+    list-style: none;
+    margin: .5rem 0;
+    gap: 1rem;
+}
+
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--grey-700);
+    padding: .75rem;
+    border-radius: .5rem;
+    transition: background-color 0.3s ease;
+    width: 19rem;
+    font-size: var(--fontsize-small);
+    font-weight: 600;
+}
+
+.social-links a:hover, .social-links a:focus{
+    background-color: var(--green);
+    color: var(--grey-700);
+}
