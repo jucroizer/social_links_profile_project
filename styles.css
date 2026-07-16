@@ -27,7 +27,8 @@
     justify-content: center;
     min-height: 100vh;
     background-color: var(--grey-900);
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-family);
+    padding: 1rem;
 }
 
 .card{
@@ -37,8 +38,8 @@
     justify-content: center;
     background-color: var(--grey-800);
     border-radius: .75rem;
-    padding: 2.5rem;
-    width: 24rem;
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+    width: min(90vw, 24rem);
     gap: 1.5rem;
 }
 
@@ -67,10 +68,18 @@ h1{
     text-align: center;
 }
 
+.social-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .social-links li{
     list-style: none;
     margin: .5rem 0;
     gap: 1rem;
+    width: min(88%, 90%);
 }
 
 .social-links a{
@@ -83,9 +92,10 @@ h1{
     padding: .75rem;
     border-radius: .5rem;
     transition: background-color 0.3s ease;
-    width: 19rem;
     font-size: var(--fontsize-small);
     font-weight: 600;
+    width: 100%;
+    max-width: 19rem;
 }
 
 .social-links a:hover, .social-links a:focus{
